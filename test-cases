@@ -1,0 +1,44 @@
+## TC-001 — Login with Valid Credentials
+Pre-Conditions: Site is reachable
+Test Data: standard_user / secret_sauce
+Steps:
+ 1. Navigate to site
+ 2. Enter valid credentials
+ 3. Click Login
+Expected Result: Login successful → Products page
+Actual Result: PASS
+
+## TC-002 — Login with Invalid Credentials
+Pre-Conditions: Site is reachable
+Test Data: invalid_user / invalid_pass
+Steps:
+ 1. Navigate to site
+ 2. Enter invalid credentials
+ 3. Click Login
+Expected Result: Error message
+Actual Result: PASS
+
+## TC-003 — Add Product to Cart
+Steps:
+ 1. Login
+ 2. Add any product to cart
+ 3. Open Cart
+Expected Result: Product present in cart
+Actual Result: PASS
+
+## TC-004 — Remove Product from Cart
+Steps:
+ 1. Login
+ 2. Add product to cart
+ 3. Go to Cart
+ 4. Remove product
+Expected Result: Item removed
+Actual Result: PASS
+
+## TC-005 — Checkout
+Steps:
+ 1. Login
+ 2. Add product
+ 3. Checkout
+Expected Result: Order confirmation message
+Actual Result: PASS
