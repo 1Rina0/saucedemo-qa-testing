@@ -1,0 +1,12 @@
+# Test Results Summary
+
+| Test Case | Result |
+|-----------|--------|
+| TC-001 | PASS |
+| TC-002 | PASS |
+| TC-003 | PASS |
+| TC-004 | PASS |
+| TC-005 | PASS |
+
+Notes:
+- All main functionality passed
