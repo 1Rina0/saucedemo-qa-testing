@@ -1,0 +1,17 @@
+# DEF-001 — Product Price Misaligned
+
+Description:
+Product price is visually misaligned under product image.
+
+Steps:
+1. Login
+2. View Products page
+
+Expected:
+Price aligned properly
+
+Actual:
+Shifted
+
+Severity: Low
+Status: Open
